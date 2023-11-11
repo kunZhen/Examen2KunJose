@@ -36,5 +36,9 @@ class TestMiClase(unittest.TestCase):
     def test_VerificaListaCanciones_False2(self):
         self.assertEqual(self.objeto.VerificaListaCanciones(["Last Christmas", "Noviembre sin ti", None]), False)
 
+    def test_Encuentra(self):
+        self.assertEqual(self.objeto.Encuentra([1, 3, 5, 7, 9], 9), True)
+
+
 if __name__ == "__main__":
     unittest.main()

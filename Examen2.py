@@ -26,7 +26,7 @@ class MiClase:
             return False
         return True
     
-    def Encuentra(lista, elemento):
+    def Encuentra(self, lista, elemento):
         if elemento in lista:
             return True
         return False
