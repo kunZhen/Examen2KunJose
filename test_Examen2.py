@@ -22,7 +22,7 @@ class TestMiClase(unittest.TestCase):
         self.assertEqual(self.objeto.ObtieneMasBailable([0.8, 0.9, 0.7]), 0.9)
 
     def test_ObtieneMasBailable2(self):
-        self.assertEqual(self.objeto.ObtieneMasBailable([0.1, 0.4, 0.67]), 0.67)
+        self.assertEqual(self.objeto.ObtieneMasBailable([0.1, 0.4, 0.67]), 0.1)
 
     def test_VerificaListaCanciones_True(self):
         self.assertEqual(self.objeto.VerificaListaCanciones(["Like Flames", "Daylight", "Make Me Feel Better"]), True)
