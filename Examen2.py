@@ -34,9 +34,9 @@ class MiClase:
 ################################################################################################
 #Ejemplo de ejecución
 # Crear un objeto de la clase MiClase
-objeto = MiClase(5, 120, 12, ["Canción 1", "Canción 2", "Canción 3"], [0.8, 0.9, 0.7])
+objeto = MiClase(5, 120, 12, ["Snowman", "Jingle Bell Rock", "All I want for Christmas"], [0.8, 0.9, 0.7])
 # Ejemplo de uso de los métodos
 print(objeto.ObtieneValencia(1234567))  # Debería imprimir 4
-print(objeto.DivisibleTempo(10))  # Debería imprimir [1, 2, 5, 10]
-print(objeto.ObtieneMasBailable([0.8, 0.9, 0.7]))  # Debería imprimir 0.9
-print(objeto.VerificaListaCanciones(["Canción 1", "Canción 2", "Canción 3"]))  # Debería imprimir True
+print(objeto.DivisibleTempo(15))  # Debería imprimir [1, 2, 5, 10]
+print(objeto.ObtieneMasBailable([0.1, 0.6, 0.4]))  # Debería imprimir 0.9
+print(objeto.VerificaListaCanciones(["Like Flames", "Daylight", "Make Me Feel Better"]))  # Debería imprimir True
